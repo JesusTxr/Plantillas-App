@@ -1,11 +1,24 @@
-### Prompt para obtener listado de pantallas
+ataforma	Generación de Leads	AI/Automatización	Monetización Pasiva	Precios
+TrueCoach	N/A	Biblioteca de ejercicios	N/A	$25 a $136/mes
+Proceso Principal	Subproceso	Características Clave
+3. Interacción y Comunicación con el Cliente	3.1. Comunicación en Tiempo Real	Chat en la Aplicación, Notas de Voz, Videollamadas
+La pantalla de inicio se diseñará para mostrar los siguientes elementos clave:
 
-Eres un **Product Designer experto** con amplia experiencia en el desarrollo de productos de software y una sólida formación en diseño UX/UI. Tu función es **diseñar una serie de pantallas** que faciliten `[Objetivo_principal_del_proceso]` a través de un proceso bien estructurado.
+Encabezado: Un resumen de "mi día", mostrando los entrenamientos programados, las calorías consumidas o las tareas de hábitos pendientes.
 
-Quiero crear una **interfaz de usuario integral para una aplicación móvil** destinada a `[Descripción_del_proceso]`. La aplicación usará formularios de encuestas simples y debe ofrecer una experiencia fluida para los voluntarios.
+Próxima Sesión: Una tarjeta destacada que muestra la próxima sesión de entrenamiento, con la hora, el lugar y la opción de agregarla a su calendario personal.   
 
-Quiero que generes una **lista secuencial de pantallas** que respalden los procesos principales descritos a continuación:
+Progreso de un Vistazo: Tarjetas visualmente atractivas que muestran métricas de progreso clave, como el peso corporal, el cumplimiento del entrenamiento o los hitos personales. Estos elementos visuales sirven como poderosos motivadores, reforzando el esfuerzo del cliente y demostrando el valor del coaching.   
 
-`[Proceso_seleccionadao_para_modelar]`
+Acciones Rápidas: Botones prominentes para las acciones más comunes, como "Reservar una sesión", "Registrar un entrenamiento" o "Enviar un mensaje a mi entrenador".
+Paso 1: Seleccionar Servicio  Muestra una lista de los servicios disponibles, con descripciones, precios y duración.   
+Paso 2: Seleccionar Fecha Muestra un calendario mensual o semanal. Los días no disponibles están atenuados o no son seleccionables, basándose en la configuración de disponibilidad del entrenador
+Paso 3: Seleccionar Hora La interfaz muestra franjas horarias claras. Las franjas reservadas o no disponibles no se muestran
+Paso 4: Formulario de Reserva El formulario se carga automáticamente, permitiendo al cliente ingresar la información necesaria para la sesión
+Paso 5: Resumen y Pago Se muestra un resumen de la reserva, con el costo total y un botón de "Pagar Ahora" prominente. Se usan señales de seguridad visuales para generar confianza.   
+Paso 6: Confirmación Muestra una pantalla de confirmación exitosa y envía un correo electrónico de confirmación personalizado y automático.   
 
-Quiero que crees una **lista detallada de pantallas** que respalden los objetivos y subprocesos anteriores, asegurando una experiencia **intuitiva y eficiente para los `[Tipo_de_usuario]`**. Incluye las características y funcionalidades clave de cada pantalla, y garantiza que el diseño esté alineado con la meta general de `[Objetivo_del_proceso_principal]`.
+Panel del Entrenador: El Centro de Mando
+Agenda de Hoy: 
+Resumen del Cliente:
+Métricas del Negocio:

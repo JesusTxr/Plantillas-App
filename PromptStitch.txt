@@ -1,1 +1,67 @@
-Te comparto el sistema de diseño para generar una aplicación móvil, de momento analiza la información y guardala en tu memoria para la construcción de las interfaces que te voy a solicitar: 
+Descripción Detallada de la Interfaz de Usuario
+El diseño de la pantalla principal se compone de los siguientes elementos, presentados en una jerarquía de arriba a abajo para una navegación intuitiva y eficiente [1], [2]:
+
+Encabezado:
+
+Un área de encabezado que muestra el nombre del cliente, haciendo la experiencia personalizada [3].
+
+Un espacio para el logo de la marca [4, 5].
+
+Un ícono de perfil o de menú de usuario, que proporciona acceso a la configuración y a la navegación secundaria.
+
+Bloque Principal de Contenido (Dashboard):
+
+Área de Resumen Diario: Una sección superior que resume el estado del día del cliente. Puede incluir un saludo personalizado y una frase que resalte el objetivo de la jornada [6].
+
+Tarjeta de Próxima Sesión: Un componente principal que muestra la sesión de entrenamiento más inmediata o la tarea programada. La tarjeta contiene detalles esenciales como el nombre de la sesión, la hora y el nombre del entrenador [7]. Se incluye una llamada a la acción prominente como "Iniciar Entrenamiento" o "Ver Detalles" para un acceso rápido [6].
+
+Área de Progreso de un Vistazo: Una sección que visualiza métricas de rendimiento clave del cliente [8, 9, 10, 11].
+
+Cada métrica se presenta en una tarjeta o un bloque de contenido separado.
+
+Los indicadores de progreso pueden incluir elementos como:
+
+Un contador de entrenamientos completados en la semana o el mes [11].
+
+Métricas de seguimiento como el peso corporal o el porcentaje de cumplimiento del plan [12, 11].
+
+El estado de seguimiento de hábitos [13].
+
+La presentación de estos datos busca ser visualmente clara y motivadora [14, 10].
+
+Botones de Acción Rápida: Una fila de botones que ofrecen las acciones más comunes, simplificando la navegación y la interacción del usuario [6]. Estos incluyen [7]:
+
+Botón para "Reservar una Sesión" [15, 6].
+
+Botón para "Registrar un Entrenamiento" [12].
+
+Botón para "Enviar un Mensaje" al entrenador [16].
+
+Barra de Navegación Secundaria (Pie de Página):
+
+Un componente de navegación persistente en la parte inferior de la pantalla que contiene íconos para las secciones principales de la aplicación [2].
+
+La navegación incluirá las siguientes opciones:
+
+Dashboard/Panel Principal (para volver a la pantalla de inicio).
+
+Calendario (para ver la agenda completa y la disponibilidad [7]).
+
+Progreso (para acceder a un análisis más detallado de las estadísticas [12]).
+
+Perfil (para gestionar la información de la cuenta).
+Necesidad del Usuario	Funcionalidad del Panel	Justificación
+Reducir la ansiedad sobre el siguiente paso.	Tarjeta de Tarea Principal Prominente ``	Proporciona un punto de enfoque único y una instrucción clara, simplificando un proceso complejo en un solo paso manejable.
+Seguimiento del progreso general y estado.	Resumen de Métricas al Estilo Bento ``	Ofrece un resumen visual de hitos clave en un formato organizado y de fácil digestión, permitiendo al usuario una visión rápida del progreso.
+Encontrar información específica rápidamente.	Barra de Navegación Inferior Persistente ``	Asegura que las secciones clave y las funciones críticas, como los contactos o el historial, sean siempre accesibles con un solo toque.
+Iniciar la acción final y más importante.	Botón de Llamada a la Acción 'Iniciar Ruta' ``	Guía claramente al usuario hacia el paso final de la jornada de alta, eliminando la ambigüedad sobre qué hacer a continuación.
+Orientación y contextualización constantes.	Barra de Aplicación Superior ``	Proporciona información contextual persistente, como el nombre del paciente y la fecha, para asegurar que el usuario siempre sepa dónde se encuentra.
+
+
+Elemento de la UI	Color Propuesto (código HEX)	Razón de Contraste (vs. Fondo)	Notas
+Fondo Principal	#121212	N/A	Un gris muy oscuro en lugar de negro puro.
+Texto Primario	#E0E0E0	> 4.5:1	Un blanco suave que evita el efecto de halo.
+Texto Secundario	#A0A0A0	> 3:1	Para etiquetas y texto menos crítico.
+Color de Acento	#BB86FC	> 4.5:1	Se utiliza para botones y elementos interactivos clave.
+
+Exportar a Hojas de cálculo

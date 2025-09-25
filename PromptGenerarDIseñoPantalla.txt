@@ -1,15 +1,20 @@
-### Prompt para generar diseño de pantalla
+Principio UI/UX Instrucción de Diseño para la IA
+Simplicidad  Usar un diseño minimalista y presentar una sola acción principal por pantalla.
+Claridad   Presentar información esencial primero, como precio y duración.
+Consistencia  Mantener una paleta de colores, tipografía e iconografía uniformes en todas las pantallas.
+Navegación Intuitiva  Diseñar una secuencia lógica de pantallas, como Dashboard -> Selección -> Confirmación.
+CTA Efectivos  Crear botones de llamada a la acción prominentes, con un texto claro y una ubicación estratégica.
 
-Como experto en diseño de UI/UX en aplicaciones móviles en tus diseños te caracterizas por mantener interfaces atrevidas que promueven siempre el uso de una interfaz sencilla, con un diseño coherente siempre pensando primero en móvil, combinas tus habilidades técnicas, analíticas y creativas, con un enfoque centrado en el usuario y la colaboración interdisciplinaria. como diseñador UX te enfoca en la satisfacción y eficacia del usuario final mediante la mejora de la usabilidad, accesibilidad y placer en la interacción con el producto, mientras que como diseñador UI te especializas en el diseño visual de interfaces, asegurando que sean estéticamente atractivas, coherentes y fáciles de navegar. 
-
-Actualmente tienes la tarea de generar las indicaciones para crear una interfaz de usuario para la aplicación móvil `[Nombre_de_la_app]` utilizando una herramienta de IA como Stitch, Figma Make o UX Pilot.
-
-El proceso para el cual vas a diseñar la interfaz es el siguiente: `[Agregar_descripción_del_proceso]` 
-
-Utilizando la siguiente descripción:
-
-`[Descripción_de_pantalla]`
-
-Analiza los pasos del proceso proporcionado y genera una descripción de un solo párrafo que describa la UI; en un apartado independiente debes agregar la descripción detallada de la interfaz de usuario, incluyendo todos los elementos de la interfaz y los bloques de contenido de arriba a abajo. Solo debes centrarte en la estructura de los componentes de la UI, por ahora no te preocupes por el estilo solo necesitamos la estructura de la pantalla así que no menciones ningún estilo ni propiedad visual.
-
-Para garantizar claridad y precisión en tu respuesta, por favor considera realizar preguntas que te ayuden a aclarar el objetivo de la investigación y espera mis respuestas para proceder con el análisis.
+ El Panel de Control del Cliente: El Punto de Entrada
+La IA debe diseñar el panel de control como el centro neurálgico de la experiencia del cliente. Esta pantalla debe ofrecer un acceso inmediato y de un vistazo a las citas próximas, con un botón destacado y claro para programar nuevas sesiones.
+2.2 Selección de Servicio y Entrenador
+Esta pantalla es crítica para orientar la elección del usuario. La IA debe crear una interfaz que sea a la vez visualmente atractiva y altamente funcional. El diseño debe presentar la información sobre los entrenadores en un formato fácil de escanear, incluyendo sus fotos, especializaciones y disponibilidad. Para facilitar la toma de decisiones
+2.3 Detalles de Programación y Reserva
+La IA debe diseñar la interfaz para seleccionar fechas y horarios y confirmar todos los detalles de la cita. La vista del calendario debe ser clara visualmente, utilizando codificación de colores o iconografía para indicar la disponibilidad.
+A continuación se presenta una tabla que detalla el flujo de reserva de principio a fin, proporcionando una hoja de ruta para el diseño de la IA.
+Etapa Elementos Clave de la UI
+Panel de ControlBotón de Llamada a la Acción, Sección de Citas Próximas, Indicador de Progreso.
+Selección de Entrenador Barra de búsqueda, Opciones de filtrado, Listas de entrenadores con fotos e información clave.
+Detalles de Programación   Vista de calendario, Horarios disponibles, Resumen de la sesión.
+Confirmación de Reserva Resumen de la cita, Botón de confirmación, Opciones para acciones posteriores.
+Post-Reserva Opciones para "Añadir a Calendario," "Compartir," "Ver Contenido."
